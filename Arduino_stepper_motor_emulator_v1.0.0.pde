@@ -95,11 +95,12 @@ void loop(){
     Serial.println(KI);
 }
   
-  if(millis() - previousMillis > 500){
+  /*if(millis() - previousTarget > 500){ //enable this code only for test purposes
   Serial.print(encoder0Pos);
   Serial.print(',');
   Serial.println(target1);
-  }
+  previousTarget=millis();
+  }*/
         
   target = target1;
   docalc();
