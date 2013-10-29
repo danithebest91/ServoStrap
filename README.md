@@ -34,7 +34,7 @@ and use it to control a servo-motor with active position tracker.
    5)less price to build a printer, almost all electronic woste (like 2D printers)
       have inside dc motors with all needed to control it
       
-   6)resolution increased by fine setting PID costants
+   6)resolution increased by fine setting PID costants and using angular encoder, doesn't matter if is slit disk or magnetic
    
    7)potentially endstops are not needed because the timing strip have special code at the begin/end 
      that can be interpreted as endstop
