@@ -17,6 +17,10 @@
    encoder0PinA to pin 2, encoder0PinB to pin 4 (or pin 3 see below)
    it doesn't matter which encoder pin you use for A or B 
 
+is possible to change PID costants by sending on serial interfaces the values separated by ',' in this order: KP,KD,KI
+   example: 5.2,3.1,0 so we have  KP=5.2 KD=3.1 KI=0 is only for testing purposes,
+   but i will leave this function with eeprom storage
+
 */ 
 
 #define encoder0PinA  2
