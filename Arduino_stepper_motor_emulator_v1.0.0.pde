@@ -23,7 +23,8 @@ is possible to change PID costants by sending on serial interfaces the values se
 
 */ 
 
-#include <digitalWriteFast.h> //this is to use DWF library
+#include <digitalWriteFast.h> //this is to use DWF library, it will increase the speed of digitalRead/Write command
+                              //used in the interrupt function doEncoderMotor0, but may be used everywhere.
 
 #define encoder0PinA  2
 #define encoder0PinB  4
